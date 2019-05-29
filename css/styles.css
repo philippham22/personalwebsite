@@ -4,14 +4,20 @@ html {
 }
 *, *:before, *:after {
     box-sizing: inherit;
+
 }
+.nav li{
+    list-style: none;
+    display: inline;
+}
+
 body {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     background: gray;
     margin: 0;
 }
 h1, h2 {
-    font-family: 'Caveat', cursive;
+    /* font-family: 'Caveat', cursive; */
     font-weight: 400;
 }
 h1 {
@@ -59,7 +65,7 @@ header {
     position: relative;
 }
 .profile-img {
-    border-radius: 50%;
+    /* border-radius: 60%; */
 }
 .download {
    position: absolute;
