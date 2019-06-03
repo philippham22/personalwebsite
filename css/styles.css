@@ -1,44 +1,58 @@
-/* global styles */
-html {
-    box-sizing: border-box;
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+
 }
-*, *:before, *:after {
-    box-sizing: inherit;
+/* global styles */
+
+.container  {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+
+.profile-img {
+    display: block;
+    border-radius: 50%;
+    margin-left: 300px;  
+    width: 50%;
+    border: 1px solid black;
 
 }
 .nav li{
     list-style: none;
     display: inline;
 }
-
-body {
-    /* font-family: 'Open Sans', sans-serif; */
-    background: rgb(226, 226, 226);
-    margin: 0;
-
-}
-.profile-img {
-    display: block;
-}
 h1, h2 {
     /* font-family: 'Caveat', cursive; */
-    font-weight: 400;
+    /* font-weight: 400; */
+    text-align: center;
+    
 }
 h1 {
-    font-size: 80px;
+    /* font-size: 80px; */
 }
 h2 {
-    font-size: 40px;
+    /* font-size: 40px; */
     margin-top: 0;
 }
-h3 {
-    margin: 0;
-}
+
 a {
     color: rgb(92, 40, 40);
 }
 a:hover {
     text-decoration: none;
+}
+ul li {
+    list-style: none;
+    text-align: center;
 }
 .content-wrap {
     max-width: 950px;
@@ -46,15 +60,23 @@ a:hover {
     padding: 60px 50px;
     overflow: hidden;
 }
-.uppercase {
-    text-transform: uppercase;
+
+/* skills */
+
+.skills {
+    margin-top: 20px;
 }
-.btn {
-  text-decoration: none;
-  background: red;
-  color: white;  
-  padding: 10px;    
-  display: inline-block;    
+
+.skills .box, .projects .box2 {
+    float: left;
+    text-align: center;
+    width: 22%;
+    padding: 10px;
+    border: 1px black solid;
+}
+
+.skills .box img, .projects .box2 img {
+    width: 80px;
 }
 
 
@@ -68,19 +90,7 @@ header {
     padding-top: 50px;
     position: relative;
 }
-.profile-img {
-    /* border-radius: 60%; */
-}
-.download {
-   position: absolute;
-   bottom: 0;
-   right: 0; 
-}
 
-header h1, header h2 {
-    color: rgb(31, 45, 48);
-    margin: 0;
-}
 
 /* footer */
 footer {
@@ -107,39 +117,12 @@ nav a {
     font-weight: 700;
 }
 
-
-
-/* work experience
---------------------*/
-.work {
-    background:rgb(169,169,169);
-}
-h3 ~ p {
-    margin: 0;
-}
-.job-description {
-    margin-bottom: 25px;
-}
-.job-description p:first-of-type {
-    margin-top: 0;
-}
-
-/* education
---------------------*/
-
-.education {
-    background: rgb(39, 53, 56);
-}
-p + h3 {
-    margin-top: 30px;
-}
-
 /* Form */
 
 form {
     /* Just to center the form on the page */
     margin: 0 auto;
-    width: 400px;
+    width: 335px;
     /* To see the outline of the form */
     padding: 1em;
     border: 1px solid #CCC;

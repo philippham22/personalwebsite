@@ -11,10 +11,6 @@
     <header>
         <div class="content-wrap">
             <img class="profile-img col-narrow" src="images/phil_pham.jpg" alt="philip-pham">
-            <div class="col-wide">
-                <h1>Philip Pham</h1>
-                <p>Hello! I am a Front End Developer from the Bay Area.</p>
-            </div>
         </div>
         <nav class="nav">
             <ul>
@@ -25,60 +21,94 @@
             </ul>
         </nav>
     </header>
-    <main> 
-        <div class="about">
+    <section class="about">
+        <div class="container">
             <h1>About</h1>
-                <p>Since graduating from CSUEB with a Bachelors of Science in Criminal Justice and deciding not to pursue a career in law enforcement, I have been trying to find my niche. After working various jobs at a few of the tech giants in the Bay Area and not being able to maintain (contract role) a position which I would be able to grow in,I took a deep look at myself to see what I was missing. After speaking with a friend who was in a similiar shoe I was in, he told me I should learn web development.  </p>
-        </div>    
-        <div class="skills">
+            <p>Since graduating from CSUEB with a Bachelors of Science in Criminal Justice and deciding not to pursue a career in law enforcement, I have been trying to find my niche. After working various jobs at a few of the tech giants in the Bay Area and not being able to maintain (contract role) a position which I would be able to grow in,I took a deep look at myself to see what I was missing. After speaking with a friend who was in a similiar shoe I was in, he told me I should learn web development</p>
+        </div>
+    </section>
+    <section class="skills">  
+        <div class="container">
             <h1>Skills</h1>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Git & GitHub</li>
-            </ul>
+                <div class="box">
+                    <img src="images/logo-html.png" alt="HTML">
+                    <h3>HTML</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis modi recusandae earum nisi accusamus? Aliquid</p>
+                </div>
+                <div class="box">
+                    <img src="images/logo-css.png" alt="CSS">
+                    <h3>CSS</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis modi recusandae earum nisi accusamus? Aliquid</p>
+                </div>
+                <div class="box">
+                    <img src="images/logo-js.png" alt="JavaScript">
+                    <h3>JavaScript</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis modi recusandae earum nisi accusamus? Aliquid</p>
+                </div>
+                <div class="box">
+                    <img src="images/logo-git.png" alt="Git">
+                    <h3>Git</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis modi recusandae earum nisi accusamus? Aliquid</p>
+                </div>
         </div>
-        <div class="projects">
+    </section>
+    <section class="projects">
+        <div class="container">
             <h1>Projects</h1>
-            <ul>
-                <li>Phabulous Papers</li>
-                <li>MSK</li>
-                <li>Ocean Slayer Boys</li>
-                <li>Felipes Birria de Res Tacos</li>
-            </ul>
+                <div class="box2">
+                        <img src="images/project-pp.png" alt="Phabulous Papers">
+                        <h3>Phabulous Papers</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis modi recusandae earum nisi accusamus? Aliquid</p>
+                    </div>
+                    <div class="box2">
+                        <img src="images/project-msk.PNG" alt="CSS">
+                        <h3>Mama Su's Kitchen</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis modi recusandae earum nisi accusamus? Aliquid</p>
+                    </div>
+                    <div class="box2">
+                        <img src="images/project-osb.jpg" alt="Ocean Slayer Boys">
+                        <h3>Ocean Slayer Boys</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis modi recusandae earum nisi accusamus? Aliquid</p>
+                    </div>
+                    <div class="box2">
+                        <img src="images/logo-git.png" alt="Git">
+                        <h3>Git</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis modi recusandae earum nisi accusamus? Aliquid</p>
+                    </div>
         </div>
-        <div class="contact">
+    </section>  
+    <section class="contact">
+        <div class="container">
             <h1>Contact</h1>
-                <form>
-                    <div action="/my-handling-form-page" method="post">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="user_name">
-                        </div>
-                        <div>
-                        <label for="mail">E-mail:</label>
-                        <input type="email" id="mail" name="user_mail">
-                        </div>
-                        <div>
-                        <label for="msg">Message:</label>
-                        <textarea id="msg" name="user_message"></textarea>
+            <h2>If you have a web app that needs building, a project you'd like to collaborate on, questions to ask, or comments to share, feel free to contact me!</h2>
+            <form>
+                <div action="/my-handling-form-page" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name">
                     </div>
-                    <div class="button">
-                        <button type="submit">Send Message</button>
+                    <div>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_mail">
                     </div>
-                </form>
+                    <div>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </div>
+                <div class="button">
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
         </div>
-    </main>
+    </section>
     <footer>
         <div class="content-wrap">
             <h2>Let's Get in Touch!</h2>
-        <!-- Social media and contact links. Add or remove any networks. -->
             <div class="contact-info">
                 <a href="mailto:philippham22@gmail.com"><i aria-hidden="true" class="fas fa-envelope-square" title="Email"></i><span class="sr-only">Email</span></a>
                 <a href="https://www.linkedin.com/in/philip-p-0a7866a/" target="_blank"><i aria-hidden="true" class="fab fa-linkedin" title="Linkedin"></i><span class="sr-only">Linkedin</span></a>
                 <a href="https://github.com/philippham22" target="_blank"><i aria-hidden="true" class="fab fa-github-square" title="GitHub"></i><span class="sr-only">GitHub</span></a> 
             </div>
-            <p>Copyright 2019 by Philip Pham</p>
+            <p>&copy; 2019 by Philip Pham</p>
         </div>
     </footer>
 </body>
