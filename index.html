@@ -9,9 +9,6 @@
 </head>
 <body>
     <header>
-        <div class="content-wrap">
-            <img class="profile-img col-narrow" src="images/phil_pham.jpg" alt="philip-pham">
-        </div>
         <nav class="nav">
             <ul>
                 <li><a href="#about">About</a></li>
@@ -21,13 +18,14 @@
             </ul>
         </nav>
     </header>
-    <section class="about">
+    <section id="about">
+        <img class="profile-img" src="images/phil_pham.jpg" alt="philip-pham">
         <div class="container">
             <h1>About</h1>
             <p>Since graduating from CSUEB with a Bachelors of Science in Criminal Justice and deciding not to pursue a career in law enforcement, I have been trying to find my niche. After working various jobs at a few of the tech giants in the Bay Area and not being able to maintain (contract role) a position which I would be able to grow in,I took a deep look at myself to see what I was missing. After speaking with a friend who was in a similiar shoe I was in, he told me I should learn web development</p>
         </div>
     </section>
-    <section class="skills">  
+    <section id="skills">  
         <div class="container">
             <h1>Skills</h1>
                 <div class="box">
@@ -52,7 +50,7 @@
                 </div>
         </div>
     </section>
-    <section class="projects">
+    <section id="projects">
         <div class="container">
             <h1>Projects</h1>
                 <div class="box2">
@@ -77,10 +75,11 @@
                     </div>
         </div>
     </section>  
-    <section class="contact">
+    <section id="contact">
         <div class="container">
             <h1>Contact</h1>
-            <h2>If you have a web app that needs building, a project you'd like to collaborate on, questions to ask, or comments to share, feel free to contact me!</h2>
+            <h2>Let's Get in Touch!</h2>
+            <h3>If you have a web app that needs building, a project you'd like to collaborate on, questions to ask, or comments to share, feel free to contact me!</h3>
             <form>
                 <div action="/my-handling-form-page" method="post">
                     <label for="name">Name:</label>
@@ -101,15 +100,12 @@
         </div>
     </section>
     <footer>
-        <div class="content-wrap">
-            <h2>Let's Get in Touch!</h2>
-            <div class="contact-info">
-                <a href="mailto:philippham22@gmail.com"><i aria-hidden="true" class="fas fa-envelope-square" title="Email"></i><span class="sr-only">Email</span></a>
-                <a href="https://www.linkedin.com/in/philip-p-0a7866a/" target="_blank"><i aria-hidden="true" class="fab fa-linkedin" title="Linkedin"></i><span class="sr-only">Linkedin</span></a>
-                <a href="https://github.com/philippham22" target="_blank"><i aria-hidden="true" class="fab fa-github-square" title="GitHub"></i><span class="sr-only">GitHub</span></a> 
-            </div>
-            <p>&copy; 2019 by Philip Pham</p>
+        <div class="contact-info">
+            <a href="mailto:philippham22@gmail.com"><i aria-hidden="true" class="fas fa-envelope-square" title="Email"></i><span class="sr-only">Email</span></a>
+            <a href="https://www.linkedin.com/in/philip-p-0a7866a/" target="_blank"><i aria-hidden="true" class="fab fa-linkedin" title="Linkedin"></i><span class="sr-only">Linkedin</span></a>
+            <a href="https://github.com/philippham22" target="_blank"><i aria-hidden="true" class="fab fa-github-square" title="GitHub"></i><span class="sr-only">GitHub</span></a> 
         </div>
+        <p>&copy; 2019 by Philip Pham</p>
     </footer>
 </body>
 </html>
